@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sauna.cpp">
+    <ClCompile Include="util.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="CameraMove.cpp">
+    <ClCompile Include="sauna.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="light.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="util.cpp">
+    <ClCompile Include="CameraMove.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,13 +32,13 @@
     <ClInclude Include="util.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="CameraMove.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="sauna.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="light.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMove.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

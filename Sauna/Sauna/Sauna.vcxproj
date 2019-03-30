@@ -10,6 +10,18 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CameraMove.cpp" />
+    <ClCompile Include="light.cpp" />
+    <ClCompile Include="sauna.cpp" />
+    <ClCompile Include="util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CameraMove.h" />
+    <ClInclude Include="light.h" />
+    <ClInclude Include="sauna.h" />
+    <ClInclude Include="util.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E875D742-6C55-4EB8-9105-0E0B1D32651A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -57,7 +69,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>glaux.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>freeglutd.lib;GLAUX.LIB;GLU32.LIB;glut32.lib;OPENGL32.LIB;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -78,18 +90,6 @@
       <AdditionalDependencies>glaux.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="CameraMove.cpp" />
-    <ClCompile Include="light.cpp" />
-    <ClCompile Include="sauna.cpp" />
-    <ClCompile Include="util.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="CameraMove.h" />
-    <ClInclude Include="light.h" />
-    <ClInclude Include="sauna.h" />
-    <ClInclude Include="util.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
