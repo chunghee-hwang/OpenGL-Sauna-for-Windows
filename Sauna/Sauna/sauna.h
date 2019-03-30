@@ -1,0 +1,73 @@
+#ifndef sauna_h
+#define sauna_h
+#include <GL/glut.h>
+extern const double rotate;
+extern const double PI;
+extern float vertex[100][3];
+extern float vertex[100][3];
+//맥반석 translate 위치 저장
+extern float mbsVertex[200][3];
+extern double showerHeadVertex[20][3];
+void desk();  
+void locker();  
+void lockerMid(); 
+void lockerBot(); 
+void door(); 
+void bigMirror(); 
+void desk2(); 
+void drawDesk2Bottom(float z); 
+void drawDesk2Top(float z);
+void specialKey(int key, int x, int y); 
+void chair1(); 
+void chair2(); 
+void chair12(); 
+void woodFence(); 
+void basket(); 
+void plate(); 
+void mackBanSeock(); 
+void initMackBanSeock();
+void smallMirror(); 
+void showerHead(); 
+void cylinder(); 
+void cylinderHole(); 
+void cylinder2(); 
+void pipe(); 
+void pipeFixer(); 
+void prop(); 
+void tub(); 
+void tubBottom(); 
+void water();
+void temperature20(); 
+void temperature39(); 
+void temperature42(); 
+void temperature59(); 
+void floorLeft(); 
+void floorRight(); 
+void wholeFloor(); 
+void wall1();  
+void wall2(); 
+void wall3(); 
+void wall4(); 
+void wall5();  
+void wall6(); 
+void wall7(); 
+void wall8(); 
+void wall9(); 
+void wall10(); 
+void wall11(); 
+void wall12(); 
+void wall13();  
+void wall14(); 
+void wall15();      
+void roof();  
+void grass(); 
+void door3(); 
+void door2();
+void translatedObject(float tx, float ty, float tz, float angleX, float angleY, float angleZ, void(*object)());
+double Sin(double angle);
+double Cos(double angle);
+void cube2();
+void cube3();
+void cube4();
+void sphere(GLfloat r, int slice, int stack); //구 그리기
+#endif
