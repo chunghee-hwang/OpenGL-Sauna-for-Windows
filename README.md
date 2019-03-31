@@ -14,5 +14,5 @@ OpenGL C++ 라이브러리를 이용하여 만든 카메라 시점 변경이 가
 + s : Move backward
 + a : Turn left
 + d : Turn right
-+ space: Move up
++ spacebar: Move up
 + v : Move down
